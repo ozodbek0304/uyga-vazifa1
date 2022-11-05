@@ -1,0 +1,81 @@
+body {
+  font-family: sans-serif;
+}
+
+.parent {
+  background-color: aliceblue;
+  display: grid;
+  gap: 3px 3px;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(11, 130px);
+  grid-template-rows: repeat(4, 150px);
+}
+
+.child {
+  color: white;
+  display: grid;
+  place-content: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.child-1 {
+  grid-area: 1/1/2/3;
+  background-color: rgba(255, 0, 89, 0.758);
+}
+
+.child-2 {
+  grid-area: 1/3/3/6;
+  background-color: rgba(255, 0, 208, 0.758);
+}
+
+.child-3 {
+  grid-area: 1/6/5/10;
+  background-color: coral;
+}
+
+.child-4 {
+  grid-area: 1/12/2/10;
+  background-color: gold;
+}
+
+.child-5 {
+  grid-area: 2/1/3/3;
+  background-color: rgba(11, 156, 11, 0.573);
+}
+
+.child-6 {
+  grid-area: 2/12/3/10;
+  background-color: rgb(4, 97, 100);
+}
+
+.child-7 {
+  grid-area: 3/1/3/3;
+  background-color: rgb(89, 170, 7);
+}
+
+.child-8 {
+  background-color: darkcyan;
+}
+
+.child-9 {
+  grid-area: 3/4/4/6;
+  background-color: aqua;
+}
+
+.child-10 {
+  grid-area: 3/10/4/12;
+  background-color: aquamarine;
+}
+
+.child-11 {
+  grid-area: 4/1/5/6;
+  background-color: blueviolet;
+}
+
+.child-12 {
+  grid-area: 4/10/5/12;
+  background-color: rgba(255, 0, 89, 0.758);
+} /*# sourceMappingURL=area.css.map *//*# sourceMappingURL=area.css.map */
